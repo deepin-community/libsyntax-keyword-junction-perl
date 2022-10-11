@@ -1,0 +1,28 @@
+Source: libsyntax-keyword-junction-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: libsub-exporter-progressive-perl,
+                     libsub-exporter-perl (>= 0.986),
+                     libsyntax-perl,
+                     libtest-requires-perl (>= 0.07),
+                     perl
+Standards-Version: 3.9.5
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libsyntax-keyword-junction-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libsyntax-keyword-junction-perl.git
+Homepage: https://metacpan.org/release/Syntax-Keyword-Junction
+
+Package: libsyntax-keyword-junction-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libsub-exporter-progressive-perl,
+         libsyntax-perl
+Description: Perl6 style Junction operators in Perl5
+ Syntax::Keyword::Junction is a lightweight module which provides 'Junction'
+ operators, the most commonly used being "any" and "all".
+ .
+ Inspired by the Perl6 design docs,
+ <http://dev.perl.org/perl6/doc/design/exe/E06.html>.

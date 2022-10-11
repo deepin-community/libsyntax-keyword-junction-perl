@@ -1,0 +1,27 @@
+libsyntax-keyword-junction-perl (0.003008-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 01:18:51 +0100
+
+libsyntax-keyword-junction-perl (0.003008-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update copyright years.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 08 Jul 2014 17:39:23 +0200
+
+libsyntax-keyword-junction-perl (0.003007-1) unstable; urgency=low
+
+  * New upstream release.
+  * Drop spelling.patch, merged upstream.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 24 Nov 2013 17:15:15 +0100
+
+libsyntax-keyword-junction-perl (0.003006-1) unstable; urgency=low
+
+  * Initial release (closes: #726749).
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 18 Oct 2013 18:59:32 +0200
